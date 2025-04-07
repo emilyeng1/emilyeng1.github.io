@@ -1,0 +1,87 @@
+h1{
+    text-align: center;
+    color: #3f538f;
+}
+
+.linkedin{
+    width: 100%;
+    text-align: center;
+}
+
+.github{
+    width: 100%;
+    text-align: center;
+}
+
+.email{
+    width: 100%;
+    text-align: center;
+}
+
+.phone{
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.fa-linkedin{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    display: none;
+}
+
+.fa-github{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    display: none;
+}
+
+.fa-envelope{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    display: none;
+}
+
+.fa-phone{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    display: none;
+}
+
+@media (max-width:850px) {
+    .slider.active{
+        border-radius: 20px;
+    }
+    .fa-linkedin{
+        display: block;
+        z-index: 1;
+    }
+    .fa-github{
+        display: block;
+        z-index: 1;
+    }
+    .fa-envelope{
+        display: block;
+        z-index: 1;
+    }
+    .fa-phone{
+        display: block;
+        z-index: 1;
+    }
+    
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
+  }

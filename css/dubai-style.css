@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    color: #3f538f;
+}
+
+/*start slider*/
+#dubai{
+    height: 850px;
+    background-color: #EBEBEB;
+}
+
+.slide-wrapper{
+    width: 70%;
+    height: 70vh;
+    /*border: 1px solid green;*/
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+.slider{
+    margin: 0 10px 0 0; /*margin-right: 10px;*/
+    height: 100%;
+    width: 10%;
+    border-radius: 60px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all ease-in-out 400ms;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider.active{
+    width: 50%;
+    border-radius: 50%;
+    animation: move-down 1.5s ease-in infinite alternate-reverse;
+}
+
+@keyframes move-down{
+    from{
+        transform: translateY(-15px);    
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+.pic-1{
+    background-image: url('../images/burj-khalifa.jpg');
+}
+
+.pic-2{
+    background-image: url('../images/camel.jpg');
+}
+
+.pic-3{
+    background-image: url('../images/lanterns.jpg');
+}
+
+.pic-4{
+    background-image: url('../images/mosque.jpg');
+}
+
+.pic-5{
+    background-image: url('../images/palm.jpg');
+}
+
+.pic-6{
+    background-image: url('../images/tea-food.jpg');
+}
+
+.pic-7{
+    background-image: url('../images/tower.jpg');
+}
+
+.caption-box {
+    width: 70%;
+    margin: 60px auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 20px;
+    color: #3f538f;
+}
+
