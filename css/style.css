@@ -93,7 +93,7 @@ header ul li a.btn:hover{
 .dropdown-content li{
     padding: 15px 20px;
     display: block;
-    border-bottom: 1px solid #81A37E;
+    border-bottom: 1px solid #81a37e;
     cursor: pointer;
 }
 

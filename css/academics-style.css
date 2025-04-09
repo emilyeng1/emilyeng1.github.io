@@ -4,7 +4,7 @@ h1{
 }
 
 .banner{
-    background-color: #d499e0;
+    background-color: #648761;
     gap: 10px;
     padding: 10px;
     text-align: center;
@@ -19,23 +19,24 @@ h1{
 .first{
     text-align: center;
     width: 25%;
-    background-color: #f3e1f7;
+    background-color: #8dc288;
 }
 
 .second{
     text-align: center;
     width: 25%;
-    background-color: #efd3f5;
+    background-color: #9dcc99;
 }
 
 .third{
     text-align: center;
     width: 25%;
-    background-color: #f3e1f7;
+    background-color: #8dc288;
 }
 
 .fourth{
     text-align: center;
     width: 25%;
-    background-color: #efd3f5;
+    background-color: #9dcc99;
 }
+
