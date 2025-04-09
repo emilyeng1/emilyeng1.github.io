@@ -2,3 +2,9 @@ h1{
     text-align: center;
     color: #3f538f;
 }
+
+.info {
+    text-align: center;
+    background-color: #EBEBEB;
+    padding: 20px;
+}
