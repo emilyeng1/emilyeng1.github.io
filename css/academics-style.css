@@ -4,8 +4,9 @@ h1{
 }
 
 .banner{
-    background-color: #648761;
-    gap: 10px;
+    /* background-color: #868d85; */
+    gap: 5px;
+    margin: 20px;
     padding: 10px;
     text-align: center;
 }

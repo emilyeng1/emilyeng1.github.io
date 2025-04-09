@@ -2,3 +2,86 @@ h1{
     text-align: center;
     color: #3f538f;
 }
+
+.reading{
+    width: 100%;
+    text-align: center;
+}
+
+.puzzles{
+    width: 100%;
+    text-align: center;
+}
+
+.vball{
+    width: 100%;
+    text-align: center;
+}
+
+.game{
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.fa-book-open-reader{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    display: none;
+}
+
+.fa-puzzle-piece{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    display: none;
+}
+
+.fa-volleyball{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    display: none;
+}
+
+.fa-gamepad{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    display: none;
+}
+
+@media (max-width:850px) {
+    .slider.active{
+        border-radius: 20px;
+    }
+    .fa-book-open-reader{
+        display: block;
+        z-index: 1;
+    }
+    .fa-puzzle-piece{
+        display: block;
+        z-index: 1;
+    }
+    .fa-volleyball{
+        display: block;
+        z-index: 1;
+    }
+    .fa-gamepad{
+        display: block;
+        z-index: 1;
+    }
+    
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
+}
