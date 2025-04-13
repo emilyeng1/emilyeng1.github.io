@@ -137,3 +137,74 @@ header ul li a.btn:hover{
     padding: 20px;
     font-size: 20px;
 }
+
+.menu-toggle{
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #3f538f;
+}
+
+.menu-toggle .fa-bars, .menu-toggle .fa-xmark{
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+.menu-toggle .fa-xmark{
+    transform: rotate(90deg);
+}
+
+/* .navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar ul .dropdown-content{
+    display: block;
+    flex-direction: column;
+    align-items: left;
+} */
+
+@media screen and (max-width: 768px){
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-toggle{
+        display: block;
+        margin: 10px 0;
+        z-index: 2;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        padding-left: 0;
+        background-color: white;
+        z-index: 1;
+    }
+
+    .navbar ul.show{
+        display: flex;
+    }
+
+    .navbar ul li, .dropdown{
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .dropdown-content{
+        position: relative;
+        background-color: #f0f0f0;
+        box-shadow: none;
+    }
+
+    .dropdown-content li{
+        display: none;
+    }
+}
